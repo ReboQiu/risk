@@ -1,0 +1,12 @@
+yk_risk::RiskResource::GetInstance()
+	Init();
+		g_resource->LoadPolicyInfo();
+			LoadResource("policy", &m_policy_info, &m_policy_lock)
+				   ParseManifest(manifest_file, manifest);
+	 	          int ret_in = ParseResource(file_name, *n_info_map);
+	g_resource->ParseResourceTypes(resource_types);
+	
+	
+	
+	问题一 ：policyinfo 是在c++中实现 还是在js中实现策略控制
+	
